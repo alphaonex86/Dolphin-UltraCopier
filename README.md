@@ -1,3 +1,4 @@
+# Now dolphin_ultracopier.py integrate the function to get sources from clipboard
 # Dolphin-UltraCopier 0.1
 
 **Release**: 28 Aug 2024  
@@ -10,16 +11,15 @@ It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultra
 
 
 1. **Copy the Script:**
-   - Copy `dolphin_ultracopier.py` to `/home/USER/.local/share/Ultracopier/dolphin_ultracopier.py`
+   - Now dolphin_ultracopier.py integrate the function to get sources from clipboard
 
 2. **Copy the Desktop Entry:**
    - Copy `ultrapaste.desktop` to `/home/USER/.local/share/kservices5/ServiceMenus/`
-   - **EDIT the ultrapaste.desktop to fix the Exec where is dolphin_ultracopier.py**
+   - **EDIT the ultrapaste.desktop to fix the Exec where is ultracopier**
    - Alternatively, copy it to `/usr/share/kservices5/ServiceMenus/` for a system-wide application.
 
 3. **Set Permissions:**
    ```bash
-	chmod +x /home/USER/.local/share/Ultracopier/dolphin_ultracopier.py
 
 	chmod 644 /home/USER/.local/share/kservices5/ServiceMenus/ultrapaste.desktop   
 	sudo chmod 644 /usr/share/kservices5/ServiceMenus/ultrapaste.desktop
